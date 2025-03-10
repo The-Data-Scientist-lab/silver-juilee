@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Silver Jubilee</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Google Fonts for bold and cursive look -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="welcome-wrapper">
+        <div class="welcome-container">
+            <h1 class="shimmer">Silver Jubilee of Mr. & Mrs. Chauhan</h1>
+            <p class="thanks">Thank You for Joining Us!</p>
+            <p class="tagline">Celebrating 25 Years of Love and Memories</p>
+            <a href="{{ url_for('gallery') }}" class="enter-btn">Explore the Memories</a>
+            <div class="decoration"></div>
+        </div>
+    </div>
+</body>
+</html>
